@@ -12,6 +12,22 @@
   font-weight: 600;
 }
 
+.test-button {
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.8rem;
+  font: inherit;
+  font-weight: 600;
+  color: #1f1f1f;
+  background: #facc15;
+  border: 1px solid #eab308;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.test-button:hover {
+  filter: brightness(1.04);
+}
+
 .add {
   display: flex;
   gap: 0.5rem;
