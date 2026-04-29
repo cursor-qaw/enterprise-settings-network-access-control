@@ -49,6 +49,23 @@
   filter: brightness(1.03);
 }
 
+.test-button {
+  display: inline-flex;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem 0.85rem;
+  font: inherit;
+  font-weight: 600;
+  color: #3d2f00;
+  background: #ffd84d;
+  border: 1px solid #e6b800;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.test-button:hover {
+  background: #ffcf24;
+}
+
 .empty {
   margin: 0;
   color: var(--text-muted);
