@@ -17,9 +17,17 @@ export default function App() {
     setItems((prev) => prev.filter((item) => item.id !== id))
   }
 
+  function logTesting() {
+    console.log('Testing')
+  }
+
   return (
     <main className="app">
       <h1>To-do</h1>
+
+      <button type="button" className="test-button" onClick={logTesting}>
+        Test
+      </button>
 
       <form className="add" onSubmit={addItem}>
         <input
